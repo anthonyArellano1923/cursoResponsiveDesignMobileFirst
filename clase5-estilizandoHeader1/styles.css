@@ -1,0 +1,62 @@
+/* 
+- Posicionamiento: orden de los contenedores.
+- Modelo de caja  (Box Model): padding, margin, entre otros.
+- Tipografía: fuentes y estilos relacionados.
+- Visuales: backgrounds, colores, entre otros.
+- Otros.
+*/
+
+:root {
+  /* Colores */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #282623;
+  --black: #201e1c;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ html {
+  font-size: 62.5%;
+  font-family: "DM Sans", serif;
+ }
+
+ /* Fuente secundaria
+   font-family: "Inter", serif;
+ */
+
+header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-width: 32rem;
+
+}
+
+header .batata-main-logo {
+  width: 15rem;
+  height: 2,4rem;
+  align-self: center;
+  margin-top: 6rem;
+}
+
+header .header--container {
+  width: 100%;
+  min-width: 28.8rem;
+  max-width: 90rem;
+  height: 21.8rem;
+  align-items: center;
+  justify-content:center ;
+}
