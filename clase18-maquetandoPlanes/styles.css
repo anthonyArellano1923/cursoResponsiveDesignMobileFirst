@@ -444,3 +444,10 @@ main {
   font-weight: bold;
   color: var(--just-white);
 }
+
+/* Visibilidad de trajetas de planes */
+
+.plans-container__plans-cards .monthly-plan,
+.plans-container__plans-cards .weekly-plan {
+  display: none;
+}
